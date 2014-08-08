@@ -110,7 +110,7 @@ end
 function SKIN:PaintButtonDown( panel, w, h )
 	self:PaintButton( panel, w, h )
 	if not panel.m_Image then
-		panel:SetImage( "erebus/arrowdown.png" )
+		panel:SetImage( "getyourowndamnbuttonimage" )
 		panel.m_Image:SetSize( 12, 12 )
 	end
 end
@@ -118,7 +118,7 @@ end
 function SKIN:PaintButtonUp( panel, w, h )
 	self:PaintButton( panel, w, h )
 	if not panel.m_Image then
-		panel:SetImage( "erebus/arrowup.png" )
+		panel:SetImage( "getyourowndamnbuttonimage" )
 		panel.m_Image:SetSize( 12, 12 )
 	end
 end
